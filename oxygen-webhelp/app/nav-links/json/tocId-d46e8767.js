@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Tractatvs de Coelo Terrestri","id":"topic_qsq_l3z_mfb","href":"text\/de_coelo_terrestri\/de_coelo_terrestri.html","menu": {"hasChildren":false,},"tocID":"topic_qsq_l3z_mfb-d46e8768","topics":[]}]});

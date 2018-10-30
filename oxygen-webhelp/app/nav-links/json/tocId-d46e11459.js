@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Rachaidibi, Veradiani, Rhodiani, et Kanidis philosophorum Regis Persarum De materia philosophici Lapidis, acutissimè colloquentium\n               Fragmentum\n            ","id":"topic_cg1_wyl_pfb","href":"text\/rachaidibi\/rachaidibi.html","menu": {"hasChildren":false,},"tocID":"topic_cg1_wyl_pfb-d46e11460","topics":[]}]});

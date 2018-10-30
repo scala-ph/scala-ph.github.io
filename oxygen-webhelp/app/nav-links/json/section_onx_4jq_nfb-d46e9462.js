@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"57. The Etherial and Terrestrial Waters of Metals of Lully for the making of Pretious Stones.","id":"section_pnx_4jq_nfb","href":"text\/four_books\/four_books_57._the_etherial_and_terrestrial_waters_of_metals_of_lully_for_the_making_of_pretious_stones..html","menu": {"hasChildren":false,},"tocID":"section_pnx_4jq_nfb-d46e9470","topics":[]}]});

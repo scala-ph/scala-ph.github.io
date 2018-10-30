@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Novum Lumen Chemicum","id":"topic_ac3_dzq_pfb","href":"text\/novum_lumen\/novum_lumen.html","menu": {"hasChildren":false,},"tocID":"topic_ac3_dzq_pfb-d46e11497","next":"topic_ac3_dzq_pfb-d46e11497",}]});

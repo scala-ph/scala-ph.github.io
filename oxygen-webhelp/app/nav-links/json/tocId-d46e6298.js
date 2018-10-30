@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Commentandus in Tabulam Smaragdinam ","id":"topic_qr4_b3h_mfb","href":"text\/commentandus_in_tabulam\/commentandus_in_tabulam.html","menu": {"hasChildren":false,},"tocID":"topic_qr4_b3h_mfb-d46e6299","next":"topic_qr4_b3h_mfb-d46e6299",}]});

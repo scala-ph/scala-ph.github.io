@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"ADDENDUM<sup class=\"ph sup\"><span class=\"ph\"><a name=\"fnsrc_1\" href=\"#fntarg_1\"><sup>1</sup></a></span></sup>","id":"d0e35791","href":"text2\/guenon\/d0e35791.html","menu": {"hasChildren":false,},"tocID":"d0e35791-d46e19184","topics":[]}]});

@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Practica Mariae Prophetissae in Artem Alchimicam","id":"topic_mx1_gfm_pfb","href":"text\/practica_mariae_prophetissae\/practica_mariae_prophetissae.html","menu": {"hasChildren":false,},"tocID":"topic_mx1_gfm_pfb-d46e11479","topics":[]}]});

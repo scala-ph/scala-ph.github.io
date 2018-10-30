@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"51. The Circulatum majus, or Metallick Acetum acerrimum of Paracelsus.","id":"section_hnx_4jq_nfb","href":"text\/four_books\/four_books_51._the_circulatum_majus,_or_metallick_acetum_acerrimum_of_paracelsus..html","menu": {"hasChildren":false,},"tocID":"section_hnx_4jq_nfb-d46e9406","topics":[]}]});

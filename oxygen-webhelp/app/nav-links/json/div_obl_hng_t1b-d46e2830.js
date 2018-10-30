@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"TRACTATUS I DE MINERALIBUS QUAE MEDIA INTER NATURAS LAPIDUM ET METALLORUM ESSE VIDENTUR.","id":"div_pbl_hng_t1b","href":"text\/mineralium\/div_pbl_hng_t1b.html","menu": {"hasChildren":false,},"tocID":"div_pbl_hng_t1b-d46e2838","next":"div_pbl_hng_t1b-d46e2838",}]});

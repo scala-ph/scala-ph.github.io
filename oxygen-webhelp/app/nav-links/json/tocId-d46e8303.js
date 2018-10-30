@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Expositio librorum Gebri et Raimundi","id":"topic_ij1_hct_mfb","href":"text\/expositio_librorum_gebri_et_raimundi\/expositio_librorum_gebri_et_raimundi.html","menu": {"hasChildren":false,},"tocID":"topic_ij1_hct_mfb-d46e8304","topics":[]}]});

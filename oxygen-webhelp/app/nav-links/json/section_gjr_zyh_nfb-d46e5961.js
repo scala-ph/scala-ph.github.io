@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"De operis mineralis enumeratione","id":"section_hjr_zyh_nfb","href":"text\/aquino_de_lapide_philosophico\/aquino_de_lapide_philosophico_de_operis_mineralis_enumeratione.html","menu": {"hasChildren":false,},"tocID":"section_hjr_zyh_nfb-d46e5969","topics":[]}]});

@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"TRACTATUS I DE METALLIS IN SPECIALI.","id":"div_m1l_hng_t1b","href":"text\/mineralium\/div_m1l_hng_t1b.html","menu": {"hasChildren":false,},"tocID":"div_m1l_hng_t1b-d46e2758","next":"div_m1l_hng_t1b-d46e2758",}]});

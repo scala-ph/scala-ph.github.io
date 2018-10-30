@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Fundamentum Scienciae Nobilissimae Secretorum Naturae","id":"topic_xyf_1ft_mfb","href":"text\/fundamentum_scienciae\/fundamentum_scienciae.html","menu": {"hasChildren":false,},"tocID":"topic_xyf_1ft_mfb-d46e8313","topics":[]}]});

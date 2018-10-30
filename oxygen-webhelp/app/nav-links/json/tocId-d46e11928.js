@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Lumen Luminum","id":"topic_p2f_xsr_pfb","href":"text\/lumen_luminum\/lumen_luminum.html","menu": {"hasChildren":false,},"tocID":"topic_p2f_xsr_pfb-d46e11929","topics":[]}]});

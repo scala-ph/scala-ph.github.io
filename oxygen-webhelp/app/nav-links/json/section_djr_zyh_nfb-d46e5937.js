@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"De materia substantiali","id":"section_ejr_zyh_nfb","href":"text\/aquino_de_lapide_philosophico\/aquino_de_lapide_philosophico_de_materia_substantiali.html","menu": {"hasChildren":false,},"tocID":"section_ejr_zyh_nfb-d46e5945","topics":[]}]});

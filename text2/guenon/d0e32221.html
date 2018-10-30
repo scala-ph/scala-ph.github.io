@@ -1,0 +1,221 @@
+
+<!DOCTYPE html
+  PUBLIC "" "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="fr-fr" lang="fr-fr">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="description" content="Ce qui précède laisse encore subsister une difficulté en ce qui concerne la considération des différents ordres de quantités infinitésimales : comment peut-on concevoir des quantités qui soient ..." /><meta name="copyright" content="(C) Copyright 2018" /><meta name="DC.rights.owner" content="(C) Copyright 2018" /><meta name="security" content="public" /><meta name="Robots" content="index,follow" /><meta name="DC.Type" content="topic" /><meta name="DC.Title" content="CHAPITRE XIX LES DIFFÉRENTIATIONS SUCCESSIVES" /><meta name="DC.Relation" scheme="URI" content="../../text2/guenon/d0e31307.html" /><meta name="DC.Relation" scheme="URI" content="../../text2/guenon/d0e32194.html" /><meta name="DC.Relation" scheme="URI" content="../../text2/guenon/d0e32250.html" /><meta name="DC.Format" content="XHTML" /><meta name="DC.Identifier" content="d0e32221" /><meta name="DC.Language" content="fr-FR" /><title>CHAPITRE XIX LES DIFFÉRENTIATIONS SUCCESSIVES</title><!--  Generated with Oxygen version 20.0-SNAPSHOT, build number 2018032809.  --><meta name="wh-path2root" content="../../" /><meta name="wh-toc-id" content="d0e32221-d46e18666" />
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Latest compiled and minified Bootstrap CSS -->
+        <link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" />
+
+        <!-- Bootstrap Optional theme -->
+        <link rel="stylesheet" href="../../oxygen-webhelp/lib/bootstrap/css/bootstrap-theme.min.css" />
+        <link rel="stylesheet" href="../../oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" />
+
+        <!-- Template default styles  -->
+        <link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/app/topic-page.css?buildId=2018032809" />
+        
+
+        <script type="text/javascript" src="../../oxygen-webhelp/lib/jquery/jquery-3.1.1.min.js"><!----></script>
+
+        <script data-main="../../oxygen-webhelp/app/topic-page.js" src="../../oxygen-webhelp/lib/requirejs/require.js"></script>
+        
+        <!-- Skin resources -->
+        <link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/template/light.css?buildId=2018032809" />
+        <!-- EXM-36950 - Expand the args.hdf parameter here -->
+        
+        
+    </head>
+
+    <body class="wh_topic_page frmBody" id="d0e32221">
+        <!-- EXM-36950 - Expand the args.hdr parameter here -->
+        
+        
+        
+<nav class="navbar navbar-default wh_header">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    <a href="../../index.html" class=" wh_logo hidden-xs "></a>
+                    <div class=" wh_publication_title "><a href="../../index.html"><span class="title">Scala Philosophorum</span></a></div>
+                    
+                </div>
+                
+                <!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+                <button type="button" data-target=".wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggle collapsed wh_toggle_button">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse">
+                
+                <div class=" wh_top_menu "><ul>
+   <li class="has-children"><span data-tocid="tocId-d46e11" data-state="not-ready" class=" topicref "><span class="title"><a href="../../text/aesch-mezareph/aesch-mezareph.html">Corpora</a></span></span></li>
+   <li class="has-children"><span data-tocid="tocId-d46e15098" data-state="not-ready" class=" topicref "><span class="title"><a href="../../text2/guenon/d0e10.html">Other text</a></span></span></li>
+   <li><span data-tocid="tocId-d46e26607" data-state="leaf" class=" topicref "><span class="title">Lexicon</span></span></li>
+   <li><span data-tocid="tocId-d46e26609" data-state="leaf" class=" topicref "><span class="title">Person</span></span></li>
+   <li><span data-tocid="tocId-d46e26612" data-state="leaf" class=" topicref "><span class="title">Bibliography</span></span></li>
+   <li class="has-children"><span data-tocid="tocId-d46e26614" data-state="not-ready" class=" topicref "><span class="title"><a href="../../varia/site.html">Varia</a></span></span></li>
+</ul></div>
+                
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+        <div class=" wh_search_input "><form id="searchForm" method="get" action="../../search.html"><div><input type="search" placeholder="Recherche " class="wh_search_textfield" id="textToSearch" name="searchQuery" /><button type="submit" class="wh_search_button"><span>Search</span></button></div><script><!--
+                                    $(document).ready(function () {
+                                        $('#searchForm').submit(function (e) {
+                                            if ($('.wh_search_textfield').val().length < 1) {
+                                                e.preventDefault();
+                                            }
+                                        });
+                                    });
+                                --></script></form></div>
+        
+        <div class="container-fluid">
+            <div class="row">
+
+                <nav class="wh_tools hidden-print">
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol xmlns:html="http://www.w3.org/1999/xhtml" class="hidden-print"><li><span class="home"><a href="../../index.html"><span>Accueil</span></a></span></li>
+   <li><span class="topicref"><span class="title"><a href="../../text2/guenon/d0e10.html">Other text</a></span></span></li>
+   <li><span class="topicref"><span class="title"><a href="../../text2/guenon/d0e10.html">Rene Guenon</a></span></span></li>
+   <li><span class="topicref"><span class="title"><a href="../../text2/guenon/d0e31307.html">Les Principes du Calcul infinitésimal</a></span></span></li>
+   <li class="active"><span class="topicref"><span class="title"><a href="../../text2/guenon/d0e32221.html">CHAPITRE XIX LES DIFFÉRENTIATIONS SUCCESSIVES</a></span></span></li>
+</ol></div>
+
+                    <div class="wh_right_tools hidden-sm hidden-xs">
+                        <div class=" wh_navigation_links "><span id="topic_navigation_links" class="navheader">
+  
+<span class="navprev"><a class="link" href="../../text2/guenon/d0e32194.html" title="CHAPITRE XVIII QUANTITÉS VARIABLES ET QUANTITÉS FIXES"></a></span>  
+<span class="navnext"><a class="link" href="../../text2/guenon/d0e32250.html" title="CHAPITRE XX DIFFÉRENTS ORDRES D’INDÉFINTTÉ"></a></span>  </span></div>
+                        <button class="wh_hide_highlight" title="Afficher/Masquer les résultats de la recherche"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" title="Réduire les sections"></button>
+                        <div class=" wh_print_link print "><a href="javascript:window.print();" title="Imprimer cette page"></a></div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        <nav role="navigation" id="wh_publication_toc" class="col-lg-3 col-md-3 col-sm-3 hidden-xs navbar hidden-print">
+                            <div class=" wh_publication_toc " data-tooltip-position="right"><ul>
+   <li><span data-tocid="tocId-d46e15098" class="topicref" data-state="expanded"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e10.html">Other text</a></span></span><ul class="nav nav-list">
+         <li><span data-tocid="tocId-d46e15099" class="topicref" data-state="expanded"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e10.html">Rene Guenon</a></span></span><ul class="nav nav-list">
+               <li><span data-tocid="d0e10-d46e15100" class="topicref" data-state="not-ready"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e10.html">Introduction Générale à l’Étude des Doctrines hindoues</a></span></span></li>
+               <li><span data-tocid="d0e2369-d46e15476" class="topicref" data-state="not-ready"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e2369.html">Le Théosophisme, Histoire d’une Pseudo-Religion</a></span></span></li>
+               <li><span data-tocid="d0e8739-d46e16142" class="topicref" data-state="not-ready"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e8739.html">L’Erreur Spirite</a></span></span></li>
+               <li><span data-tocid="d0e11132-d46e16351" class="topicref" data-state="not-ready"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e11132.html">Orient et Occident</a></span></span></li>
+               <li><span data-tocid="d0e11592-d46e16463" class="topicref" data-state="not-ready"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e11592.html">L’Homme et son Devenir selon le Vêdânta</a></span></span></li>
+               <li><span data-tocid="d0e16614-d46e16689" class="topicref" data-state="not-ready"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e16614.html">L’Ésotérisme de Dante</a></span></span></li>
+               <li><span data-tocid="d0e17692-d46e16769" class="topicref" data-state="not-ready"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e17692.html">La Crise du Monde Moderne</a></span></span></li>
+               <li><span data-tocid="d0e18148-d46e16857" class="topicref" data-state="not-ready"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e18148.html">Le Roi du Monde</a></span></span></li>
+               <li><span data-tocid="d0e20295-d46e16962" class="topicref" data-state="not-ready"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e20295.html">Autorité Spirituelle et Pouvoir Temporel</a></span></span></li>
+               <li><span data-tocid="d0e21014-d46e17042" class="topicref" data-state="leaf"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e21014.html">Saint Bernard</a></span></span></li>
+               <li><span data-tocid="d0e21102-d46e17050" class="topicref" data-state="not-ready"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e21102.html">Le Symbolisme de la Croix</a></span></span></li>
+               <li><span data-tocid="d0e23151-d46e17305" class="topicref" data-state="not-ready"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e23151.html">Les États Multiples de l’Être</a></span></span></li>
+               <li><span data-tocid="d0e24010-d46e17466" class="topicref" data-state="leaf"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e24010.html">La Métaphysique orientale</a></span></span></li>
+               <li><span data-tocid="d0e24071-d46e17474" class="topicref" data-state="not-ready"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e24071.html">Le Règne de la Quantité et les Signes des Temps</a></span></span></li>
+               <li><span data-tocid="d0e25784-d46e17891" class="topicref" data-state="not-ready"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e25784.html">Aperçus sur l’Initiation</a></span></span></li>
+               <li><span data-tocid="d0e28284-d46e18287" class="topicref" data-state="not-ready"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e28284.html">La Grande Triade</a></span></span></li>
+               <li><span data-tocid="d0e31307-d46e18513" class="topicref" data-state="expanded"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e31307.html">Les Principes du Calcul infinitésimal</a></span></span><ul class="nav nav-list">
+                     <li><span data-tocid="d0e31310-d46e18521" class="topicref" data-state="leaf"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e31310.html">AVANT-PROPOS</a></span></span></li>
+                     <li><span data-tocid="d0e31333-d46e18529" class="topicref" data-state="leaf"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e31333.html">CHAPITRE PREMIER INFINI ET INDÉFINI</a></span></span></li>
+                     <li><span data-tocid="d0e31413-d46e18537" class="topicref" data-state="leaf"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e31413.html">CHAPITRE II LA CONTRADICTION DU « NOMBRE INFINI »</a></span></span></li>
+                     <li><span data-tocid="d0e31440-d46e18545" class="topicref" data-state="leaf"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e31440.html">CHAPITRE III LA MULTITUDE INNOMBRABLE</a></span></span></li>
+                     <li><span data-tocid="d0e31490-d46e18553" class="topicref" data-state="leaf"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e31490.html">CHAPITRE IV LA MESURE DU CONTINU</a></span></span></li>
+                     <li><span data-tocid="d0e31508-d46e18561" class="topicref" data-state="leaf"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e31508.html">CHAPITRE V QUESTIONS SOULEVÉES PAR LA MÉTHODE INFINITÉSIMALE</a></span></span></li>
+                     <li><span data-tocid="d0e31544-d46e18569" class="topicref" data-state="leaf"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e31544.html">CHAPITRE VI LES « FICTIONS BIEN FONDÉES »</a></span></span></li>
+                     <li><span data-tocid="d0e31666-d46e18577" class="topicref" data-state="leaf"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e31666.html">CHAPITRE VIII « DIVISION A L’INFINI » OU DIVISIBILITÉ INDÉFINIE</a></span></span></li>
+                     <li><span data-tocid="d0e31740-d46e18585" class="topicref" data-state="leaf"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e31740.html">CHAPITRE IX INDÉFINIMENT CROISSANT ET INDÉFINIMENT DÉCROISSANT</a></span></span></li>
+                     <li><span data-tocid="d0e31817-d46e18593" class="topicref" data-state="leaf"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e31817.html">CHAPITRE X INFINI ET CONTINU</a></span></span></li>
+                     <li><span data-tocid="d0e31849-d46e18602" class="topicref" data-state="leaf"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e31849.html">CHAPITRE XI LA « LOI DE CONTINUITÉ »</a></span></span></li>
+                     <li><span data-tocid="d0e31914-d46e18610" class="topicref" data-state="leaf"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e31914.html">CHAPITRE XII LA NOTION DE LA LIMITE</a></span></span></li>
+                     <li><span data-tocid="d0e31949-d46e18618" class="topicref" data-state="leaf"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e31949.html">CHAPITRE XIII CONTINUITÉ ET PASSAGE A LA LIMITE</a></span></span></li>
+                     <li><span data-tocid="d0e31994-d46e18626" class="topicref" data-state="leaf"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e31994.html">CHAPITRE XIV LES « QUANTITÉS ÉVANOUISSANTES »</a></span></span></li>
+                     <li><span data-tocid="d0e32031-d46e18634" class="topicref" data-state="leaf"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e32031.html">CHAPITRE XV ZÉRO N’EST PAS UN NOMBRE</a></span></span></li>
+                     <li><span data-tocid="d0e32083-d46e18642" class="topicref" data-state="leaf"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e32083.html">CHAPITRE XVI LA NOTATION DES NOMBRES NÉGATIFS</a></span></span></li>
+                     <li><span data-tocid="d0e32128-d46e18650" class="topicref" data-state="leaf"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e32128.html">CHAPITRE XVII REPRÉSENTATION DE L’ÉQUILIBRE DES FORCES</a></span></span></li>
+                     <li><span data-tocid="d0e32194-d46e18658" class="topicref" data-state="leaf"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e32194.html">CHAPITRE XVIII QUANTITÉS VARIABLES ET QUANTITÉS FIXES</a></span></span></li>
+                     <li class="active"><span data-tocid="d0e32221-d46e18666" class="topicref" data-state="leaf"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e32221.html">CHAPITRE XIX LES DIFFÉRENTIATIONS SUCCESSIVES</a></span></span></li>
+                     <li><span data-tocid="d0e32250-d46e18674" class="topicref" data-state="leaf"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e32250.html">CHAPITRE XX DIFFÉRENTS ORDRES D’INDÉFINTTÉ</a></span></span></li>
+                     <li><span data-tocid="d0e32277-d46e18682" class="topicref" data-state="leaf"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e32277.html">CHAPITRE XXI L’INDÉFINI EST INÉPUISABLE ANALYTIQUEMENT</a></span></span></li>
+                     <li><span data-tocid="d0e32297-d46e18691" class="topicref" data-state="leaf"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e32297.html">CHAPITRE XXII CARACTÈRE SYNTHÉTIQUE DE L’INTÉGRATION</a></span></span></li>
+                     <li><span data-tocid="d0e32314-d46e18699" class="topicref" data-state="leaf"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e32314.html">CHAPITRE XXII LES ARGUMENTS DE ZÉNON D’ÉLÉE</a></span></span></li>
+                     <li><span data-tocid="d0e32329-d46e18707" class="topicref" data-state="leaf"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e32329.html">CHAPITRE XXIV VÉRITABLE CONCEPTION DU PASSAGE A LA LIMITE</a></span></span></li>
+                     <li><span data-tocid="d0e32341-d46e18715" class="topicref" data-state="leaf"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e32341.html">CHAPITRE XXV CONCLUSION</a></span></span></li>
+                  </ul>
+               </li>
+               <li><span data-tocid="d0e32360-d46e18723" class="topicref" data-state="not-ready"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e32360.html">Initiation et Réalisation spirituelle</a></span></span></li>
+               <li><span data-tocid="d0e34280-d46e19000" class="topicref" data-state="not-ready"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e34280.html">Aperçus sur l’Ésotérisme chrétien</a></span></span></li>
+               <li><span data-tocid="d0e35598-d46e19110" class="topicref" data-state="not-ready"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e35598.html">Symboles de la Science sacrée</a></span></span></li>
+               <li><span data-tocid="d0e43987-d46e20497" class="topicref" data-state="not-ready"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e43987.html">Études sur l’Hindouisme</a></span></span></li>
+               <li><span data-tocid="d0e49355-d46e20887" class="topicref" data-state="not-ready"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e49355.html">Formes traditionnelles et Cycles cosmiques</a></span></span></li>
+               <li><span data-tocid="d0e51223-d46e21038" class="topicref" data-state="not-ready"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e51223.html">Aperçus sur l’Ésotérisme islamique et le Taoïsme</a></span></span></li>
+               <li><span data-tocid="d0e52953-d46e21238" class="topicref" data-state="not-ready"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e52953.html">Mélanges</a></span></span></li>
+               <li><span data-tocid="d0e55186-d46e21659" class="topicref" data-state="not-ready"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e55186.html">Comptes Rendus</a></span></span></li>
+               <li><span data-tocid="d0e57685-d46e21925" class="topicref" data-state="not-ready"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e57685.html">Études sur la Franc-Maçonnerie et le Compagnonnage, tome 1</a></span></span></li>
+               <li><span data-tocid="d0e62266-d46e22480" class="topicref" data-state="not-ready"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e62266.html">Études sur la Franc-Maçonnerie et le Compagnonnage, tome 2</a></span></span></li>
+               <li><span data-tocid="d0e66208-d46e22795" class="topicref" data-state="not-ready"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e66208.html">Articles et Comptes Rendus, Tome 1</a></span></span></li>
+               <li><span data-tocid="d0e70126-d46e24169" class="topicref" data-state="not-ready"><span class="wh-expand-btn"></span><span class="title"><a href="../../text2/guenon/d0e70126.html">Correspondance</a></span></span></li>
+            </ul>
+         </li>
+      </ul>
+   </li>
+</ul></div>
+                        </nav>
+                    
+                    
+                    <div id="wh_topic_body" class="col-lg-7 col-md-9 col-sm-9 col-xs-12">
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1"><h1 class="title topictitle1" id="ariaid-title1">CHAPITRE XIX LES DIFFÉRENTIATIONS SUCCESSIVES</h1>
+<div class="body"><div class="p">Ce qui précède laisse encore subsister une difficulté en ce qui concerne la considération des différents ordres de quantités infinitésimales : comment peut-on concevoir des quantités qui soient infinitésimales, non seulement par rapport aux quantités ordinaires, mais par rapport à d’autres quantités qui sont elles-mêmes infinitésimales ? Ici encore, Leibnitz a recours à la notion des « incomparables », mais cette notion est beaucoup trop vague pour que nous puissions nous en contenter, et elle n’explique pas suffisamment la possibilité des différentiations successives. Sans doute, cette possibilité peut être mieux comprise par une comparaison ou un exemple tiré de la mécanique : « Quant aux ∂∂<em class="ph i">x</em> elles sont aux ∂<em class="ph i">x</em> comme les <em class="ph i">conatus</em> de la pesanteur ou les sollicitations centrifuges sont à la vitesse »<sup class="ph sup"><span class="ph"><a name="fnsrc_1" href="#fntarg_1"><sup>1</sup></a></span></sup>. Et Leibnitz développe cette idée dans sa réponse aux objections du mathématicien hollandais Nieuwentijt, qui, tout en admettant les différentielles du premier ordre, soutenait que celles des ordres supérieurs ne pouvaient être que nulles : « La quantité ordinaire, la quantité infinitésimale première ou différentielle, et la quantité différentio-différentielle ou infinitésimale seconde, sont entre elles comme le mouvement, la vitesse et la sollicitation, qui est un élément de la vitesse<sup class="ph sup"><span class="ph"><a name="fnsrc_2" href="#fntarg_2"><sup>2</sup></a></span></sup>. Le mouvement décrit une ligne, la vitesse un élément de ligne, et la sollicitation un élément d’élément »<sup class="ph sup"><span class="ph"><a name="fnsrc_3" href="#fntarg_3"><sup>3</sup></a></span></sup>. Mais ce n’est là qu’un exemple ou un cas particulier, qui ne peut en somme servir que de simple « illustration » et non pas d’argument, et il est nécessaire de fournir une justification d’ordre général, que cet exemple, en un certain sens, contient d’ailleurs implicitement.</div>
+<p class="p">En effet, les différentielles du premier ordre représentent les accroissements, ou mieux les variations, puisqu’elles peuvent être aussi bien, suivant les cas, dans le sens décroissant que dans le sens croissant, que reçoivent à chaque instant les quantités ordinaires : telle est la vitesse par rapport à l’espace parcouru dans un mouvement quelconque. De la même façon, les différentielles d’un certain ordre représentent les variations instantanées de celles de l’ordre précédent, prises à leur tour comme des grandeurs existant dans un certain intervalle : telle est l’accélération par rapport à la vitesse. C’est donc sur la considération de différents degrés de variation, bien plutôt que de grandeurs incomparables entre elles, que repose véritablement la distinction des différents ordres de quantités infinitésimales.</p>
+<p class="p">Pour préciser la façon dont ceci doit être entendu, nous ferons simplement la remarque suivante : on peut établir, parmi les variables elles-mêmes, des distinctions analogues à celle que nous avons établie précédemment entre les quantités rixes et les variables ; dans ces conditions, pour reprendre la définition de Carnot, une quantité sera dite infinitésimale par rapport à d’autres quand on pourra la rendre aussi petite qu’on le veut « sans qu’on soit obligé pour cela de faire varier ces autres quantités », C’est que, en effet, une quantité qui n’est pas absolument fixe, ou même qui est essentiellement variable, ce qui est le cas des quantités infinitésimales, de quelque ordre qu’elles soient d’ailleurs, peut cependant être regardée comme relativement fixe et déterminée, c’est-à-dire comme susceptible de jouer le rôle de quantité fixe par rapport à certaines autres variables. C’est dans ces conditions seulement qu’une quantité variable peut être considérée comme la limite d’une autre variable, ce qui, d’après la définition même de la limite, suppose qu’elle est regardée comme fixe, au moins sous un certain rapport, c’est-à-dire relativement à celle dont elle est la limite ; inversement, une quantité pourra être variable, non seulement en elle-même ou, ce qui revient au même, par rapport aux quantités absolument fixes, mais encore par rapport à d’autres variables, en tant que ces dernières peuvent être regardées comme relativement fixes.</p>
+<p class="p">Au lieu de parler à cet égard de degrés de variation comme nous venons de le faire, on pourrait encore parler tout aussi bien de degrés d’indétermination, ce qui, au fond, serait exactement la même chose, envisagée seulement à un point de vue un peu différent : une quantité, bien qu’indéterminée de sa nature, peut cependant être déterminée, dans un sens relatif, par l’introduction de certaines hypothèses, qui laissent en même temps subsister l’indétermination d’autres quantités ; ces dernières seront donc, si l’on peut dire, plus indéterminées que les autres, ou indéterminées à un degré supérieur, et ainsi elles pourront avoir avec elles un rapport comparable à celui que les quantités indéterminées ont avec les quantités véritablement déterminées. Nous nous bornerons à ces quelques indications sur ce sujet, car, si sommaires qu’elles soient, nous pensons qu’elles sont tout au moins suffisantes pour faire comprendre la possibilité de l’existence des différentielles de divers ordres successifs ; mais il nous reste encore, en connexion avec cette même question, à montrer plus explicitement qu’il n’y a réellement aucune difficulté logique à considérer des degrés multiples d’indéfinité, tant dans l’ordre des quantités décroissantes, qui est celui auquel appartiennent les infinitésimales ou les différentielles, que dans celui des quantités croissantes, où l’on peut envisager de même des intégrales de différents ordres, symétriques en quelque sorte des différentielles successives, ce qui est d’ailleurs conforme à la corrélation qui existe, ainsi que nous l’avons expliqué, entre l’indéfiniment croissant et l’indéfiniment décroissant. Bien entendu, c’est de degrés d’indéfinité qu’il s’agit en cela, et non point de « degrés d’infinité » tels que les entendait Jean Bernoulli, dont Leibnitz n’osait ni admettre ni rejeter absolument la conception à cet égard ; et ce cas est encore de ceux où les difficultés se trouvent immédiatement résolues par la substitution de la notion de l’indéfini à celle du prétendu infini.</p>
+</div>
+<div class="fn"><a name="fntarg_1" href="#fnsrc_1"><sup>1</sup></a>  <p class="p">Lettre à Huygens, 1er-2 octobre 1693.</p>
+</div><div class="fn"><a name="fntarg_2" href="#fnsrc_2"><sup>2</sup></a>  <p class="p">Cette « sollicitation » est ce qu’on désigne habituellement par le nom d’« accélération ».</p>
+</div><div class="fn"><a name="fntarg_3" href="#fnsrc_3"><sup>3</sup></a>  <p class="p"><em class="ph i">Responsio ad nonnullas difficultates a Dn. Bernardo Nieuwentijt circa Methodum differentiatem seu infinitesimalem motas</em>, dans les <em class="ph i">Acta Eruditorum</em> de Leipzig, 1695.</p>
+</div></article></main></div>
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div> <nav class="navbar navbar-default wh_footer">
+  <div class=" footer-container text-center ">
+    Scala Philosophorum
+  </div>
+</nav>
+
+        
+        <div id="go2top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </div>
+        
+        <!-- The modal container for images -->
+        <div id="modal_img_large" class="modal">
+            <span class="close glyphicon glyphicon-remove"></span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="modal-img" />
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+        
+        <script src="../../oxygen-webhelp/lib/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        
+    </body>
+</html>

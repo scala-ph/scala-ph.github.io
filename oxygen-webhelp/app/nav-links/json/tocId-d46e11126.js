@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Speculum alkimie minus","id":"topic_hrz_chd_pfb","href":"text\/speculum_alkimie_minus\/speculum_alkimie_minus.html","menu": {"hasChildren":false,},"tocID":"topic_hrz_chd_pfb-d46e11127","next":"topic_hrz_chd_pfb-d46e11127",}]});

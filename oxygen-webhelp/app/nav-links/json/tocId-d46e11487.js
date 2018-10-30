@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Orthelii commentatio in epistolam Joh. Pontani de Lapide. Ph.","id":"topic_d3z_qxq_pfb","href":"text\/commentatio_in_epistolam\/commentatio_in_epistolam.html","menu": {"hasChildren":false,},"tocID":"topic_d3z_qxq_pfb-d46e11488","topics":[]}]});

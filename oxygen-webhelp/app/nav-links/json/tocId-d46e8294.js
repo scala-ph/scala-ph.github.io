@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Epistola Joannis Pontani summi Philosophi, in qua de Lapide quem Philosophorum vocant agitur","id":"topic_zkk_fbt_mfb","href":"text\/epistola_joannis_pontani\/epistola_joannis_pontani.html","menu": {"hasChildren":false,},"tocID":"topic_zkk_fbt_mfb-d46e8295","topics":[]}]});

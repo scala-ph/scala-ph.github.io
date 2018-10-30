@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Quaestio.","id":"section_cty_lc3_mfb","href":"text\/correctio_fatvorvm\/correctio_fatvorvm_quaestio..html","menu": {"hasChildren":false,},"tocID":"section_cty_lc3_mfb-d46e366","topics":[]}]});

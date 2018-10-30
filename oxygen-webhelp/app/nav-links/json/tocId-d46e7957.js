@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"De Auri Tinctura","id":"topic_a33_gp3_mfb","href":"text\/de_auri_tinctura\/de_auri_tinctura.html","menu": {"hasChildren":false,},"tocID":"topic_a33_gp3_mfb-d46e7958","topics":[]}]});

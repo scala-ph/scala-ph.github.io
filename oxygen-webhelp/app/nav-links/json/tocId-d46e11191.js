@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Tabula Chimica","id":"topic_w4l_jpd_pfb","href":"text\/tabulae_chimicae\/tabulae_chimicae.html","menu": {"hasChildren":false,},"tocID":"topic_w4l_jpd_pfb-d46e11192","next":"topic_w4l_jpd_pfb-d46e11192",}]});

@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Four books of Johannes Segerus Weidenfeld","id":"topic_ody_42q_nfb","href":"text\/four_books\/four_books.html","menu": {"hasChildren":false,},"tocID":"topic_ody_42q_nfb-d46e8794","next":"topic_ody_42q_nfb-d46e8794",}]});

@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Liber de compositione Alchemiae","id":"topic_wsy_3dz_pfb","href":"text\/de_compositione_alchemiae\/de_compositione_alchemiae.html","menu": {"hasChildren":false,},"tocID":"topic_wsy_3dz_pfb-d46e13030","next":"topic_wsy_3dz_pfb-d46e13030",}]});

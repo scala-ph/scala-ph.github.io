@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Liber Lucis","id":"topic_ynw_b3y_pfb","href":"text\/liber_lucis\/liber_lucis.html","menu": {"hasChildren":false,},"tocID":"topic_ynw_b3y_pfb-d46e12809","next":"topic_ynw_b3y_pfb-d46e12809",}]});

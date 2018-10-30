@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"<strong class=\"ph b\">Aphorismi Basiliani sive Canones Hermetici de Spiritu, Anima, et Corpore</strong>","id":"topic_vky_hvg_mfb","href":"text\/aphorismi_basiliani\/aphorismi_basiliani.html","menu": {"hasChildren":false,},"tocID":"topic_vky_hvg_mfb-d46e3808","next":"topic_vky_hvg_mfb-d46e3808",}]});

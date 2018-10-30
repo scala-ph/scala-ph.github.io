@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Liber Dedali Philosophi","id":"topic_bcs_nky_pfb","href":"text\/liber_dedali\/liber_dedali.html","menu": {"hasChildren":false,},"tocID":"topic_bcs_nky_pfb-d46e12916","next":"topic_bcs_nky_pfb-d46e12916",}]});

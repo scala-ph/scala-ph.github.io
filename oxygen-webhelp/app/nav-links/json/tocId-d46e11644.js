@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"Manuscriptum ad Fridericum","id":"topic_b51_flr_pfb","href":"text\/ad_fridericum\/ad_fridericum.html","menu": {"hasChildren":false,},"tocID":"topic_b51_flr_pfb-d46e11645","next":"topic_b51_flr_pfb-d46e11645",}]});
